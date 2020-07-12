@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ProductBrowser</string>
+    <string name="Date">Date</string>
+    <string name="sugar">Sugar</string>
+    <string name="record">Record</string>
+    <string name="date">Date</string>
+    <string name="textView">TextView</string>
+    <string name="add">Add</string>
+    <string name="viewData">View Data</string>
+</resources>
