@@ -37,10 +37,16 @@ public class Database extends SQLiteOpenHelper {
         } else return true;
     }
 
-    public Cursor getAllData(){
+    public Cursor getAllData() {
         SQLiteDatabase database = this.getWritableDatabase();
-        Cursor cursor = database.rawQuery("SELECT * FROM "+TABLE_NAME, null);
-    return cursor;
+        Cursor cursor = database.rawQuery("SELECT * FROM " + TABLE_NAME, null);
+        return cursor;
+    }
+
+    public Cursor getDayData(String date) {
+        SQLiteDatabase database = this.getWritableDatabase();
+        Cursor cursor = database.rawQuery("SELECT * FROM " + TABLE_NAME + " WHERE date = '"+date+"'", null);
+        return cursor;
     }
 }
 

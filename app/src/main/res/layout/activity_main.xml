@@ -11,7 +11,7 @@
             android:layout_height="0dp"
             app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
-            android:layout_marginTop="60dp" app:layout_constraintVertical_bias="1.0"
+            android:layout_marginTop="56dp" app:layout_constraintVertical_bias="1.0"
     >
         <LinearLayout
                 android:orientation="horizontal"
@@ -67,5 +67,12 @@
                 android:text="@string/viewData"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" android:id="@+id/button2"/>
+        <CalendarView
+                android:layout_width="match_parent"
+                android:layout_height="308dp" android:id="@+id/calendarView"/>
+        <Button
+                android:text="@string/chek_day"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/button3"/>
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>

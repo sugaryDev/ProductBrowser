@@ -7,4 +7,5 @@
     <string name="textView">TextView</string>
     <string name="add">Add</string>
     <string name="viewData">View Data</string>
+    <string name="chek_day">Chek Day</string>
 </resources>
